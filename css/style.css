@@ -1,0 +1,115 @@
+body ,html{
+    height: 100%;
+    background-image: url(../images/gory.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-family: 'Allura';
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.top-pause{
+    margin-top: 5vh;
+}
+
+.top-padding{
+    padding-top: 5vh;
+}
+.container{
+    font-weight: bold;
+    background: rgba(222, 184, 135, 0.66);
+    border:2px solid sandybrown
+    
+}
+a.details:link {
+    text-decoration: none;
+ }
+ a.details:visited {
+    color:black;
+    text-decoration: none;
+}
+ a.deteils:hover {
+    text-decoration: none;
+}
+
+.to-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.to-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.side-padding{
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+}
+
+.photo-margin{
+    margin: 2.5vh 2.5vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: block;
+}
+
+.photo-move{
+    transition: transform 0.4s ease-in-out;
+}
+
+.photo{
+    height: 350px;
+    width:250px;
+    overflow: hidden;
+}
+
+.photo img{
+    width :100%;
+    height: 100%;
+}
+
+.photo-move:hover {
+    -webkit-transform: scale(1.1) rotate(-5deg);
+    -ms-transform: scale(1.1) rotate(-5deg);
+    transform: scale(1.1) rotate(-5deg);
+}
+
+@media only screen and (max-width: 1000px) {
+    .double-photo {
+      display: flex;
+      flex-direction: column ;
+    }
+  }
+
+
+
+
+
+  
+  
+
+
+
