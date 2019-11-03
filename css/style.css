@@ -26,7 +26,7 @@ h1{
 .container{
     font-weight: bold;
     background: rgba(222, 184, 135, 0.66);
-    border:2px solid sandybrown
+    border:2px solid sandybrown;
     
 }
 a.details:link {
