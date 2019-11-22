@@ -29,16 +29,16 @@ h1{
     border:2px solid sandybrown;
     
 }
-a.details:link {
+a.details {
     text-decoration: none;
- }
- a.details:visited {
     color:black;
-    text-decoration: none;
-}
- a.deteils:hover {
-    text-decoration: none;
-}
+    text-align: center;
+ }
+
+ a.details:hover{
+     color: seagreen;
+     text-decoration: none;
+ }
 
 .to-right{
     display: flex;
@@ -56,7 +56,6 @@ a.details:link {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .side-padding{
@@ -99,10 +98,18 @@ li{
 
 @media only screen and (max-width: 1000px) {
     .double-photo {
+      order: -1;
       display: flex;
-      flex-direction: column ;
+      flex-wrap: wrap;
     }
-  }
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 
 
